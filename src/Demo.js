@@ -13,7 +13,7 @@ function tic() {
     return(
     
       <div>
-        <h1>Hello, world!</h1>
+        <h1>Hello twinkle</h1>
         <h2>It is {new Date().toLocaleTimeString()}.pm</h2>
       </div>)
     
