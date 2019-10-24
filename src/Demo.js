@@ -8,13 +8,20 @@ import React from 'react';
 //     }
 // }
 // export default Demo;
+function Wel(props) {
+  return <div><h1>Hello, {props.name}</h1>
+  <h2>It is {new Date().toLocaleTimeString()}.pm</h2></div>
+}
 function tic() {
     
     return(
     
       <div>
-        <h1>Hello twinkle</h1>
-        <h2>It is {new Date().toLocaleTimeString()}.pm</h2>
+        <Wel name="Twinkle" />
+        <Wel name="Amar" />
+        <Wel name="Diwakar" />
+      
+        {/* <h2>It is {new Date().toLocaleTimeString()}.pm</h2> */}
       </div>)
     
    
